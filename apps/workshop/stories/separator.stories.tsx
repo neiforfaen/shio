@@ -37,12 +37,12 @@ export const Horizontal: Story = {
  * Use the `vertical` orientation to divide content laid out in a row.
  */
 export const Vertical: Story = {
-  render: () => (
+  render: (args) => (
     <div className="flex h-5 items-center space-x-4 text-sm">
       <div>Blog</div>
-      <Separator orientation="vertical" />
+      <Separator {...args} />
       <div>Docs</div>
-      <Separator orientation="vertical" />
+      <Separator {...args} />
       <div>Source</div>
     </div>
   ),
