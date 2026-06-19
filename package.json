@@ -15,7 +15,8 @@
     "check-types": "turbo run check-types",
     "gen:component": "turbo gen component",
     "bump-ui": "npx shadcn@latest add --all --overwrite -c packages/shadcn-ui",
-    "clean": "git clean -fdx node_modules dist",
+    "clean": "git clean -fdx node_modules dist pnpm-lock.yaml",
+    "clean:all": "turbo run clean && pnpm clean && pnpm install",
     "prepare": "lefthook install"
   },
   "devDependencies": {
