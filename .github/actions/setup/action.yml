@@ -8,3 +8,4 @@ runs:
         node-version: "24.x"
         cache: "pnpm"
     - run: pnpm install --frozen-lockfile
+      shell: bash
