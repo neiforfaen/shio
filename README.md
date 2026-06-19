@@ -1,7 +1,9 @@
 # Shio UI
 
 <div>
-  <img src="https://shieldcn.dev/github/license/neiforfaen/shio.svg?variant=branded" alt="license" />
+  <a href="/LICENSE.md">
+    <img src="https://shieldcn.dev/github/license/neiforfaen/shio.svg?variant=branded" alt="license" />
+  </a>
 </div>
 
 ## Overview
