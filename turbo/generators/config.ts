@@ -1,4 +1,6 @@
 import { execSync } from "node:child_process"
+import { readFileSync } from "node:fs"
+import { join } from "node:path"
 import type { PlopTypes } from "@turbo/gen"
 
 export default function generator(plop: PlopTypes.NodePlopAPI): void {
@@ -31,6 +33,22 @@ export default function generator(plop: PlopTypes.NodePlopAPI): void {
           .toLowerCase()
           .replace(/\s+/g, "-")
         return "Component name sanitized"
+      },
+      (answers) => {
+        const shadcnUiPkg = JSON.parse(
+          readFileSync(
+            join(answers.turbo.paths.root, "packages/shadcn-ui/package.json"),
+            "utf-8"
+          )
+        )
+        answers.reactVersion = shadcnUiPkg.dependencies.react
+        answers.reactDomVersion = shadcnUiPkg.dependencies["react-dom"]
+        answers.typesReactVersion = shadcnUiPkg.devDependencies["@types/react"]
+        answers.typesReactDomVersion =
+          shadcnUiPkg.devDependencies["@types/react-dom"]
+        answers.typescriptVersion = shadcnUiPkg.devDependencies.typescript
+
+        return "Resolved @repo/shadcn-ui dependency versions"
       },
       {
         type: "add",
