@@ -1,0 +1,36 @@
+{
+  "name": "shio-ui",
+  "version": "0.1.0",
+  "bin": {
+    "shio-ui": "dist/cli.js"
+  },
+  "files": [
+    "dist/cli.js"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "check": "ultracite check",
+    "fix": "ultracite fix",
+    "check-types": "turbo run check-types",
+    "gen:component": "turbo gen component",
+    "bump-ui": "npx shadcn@latest add --all --overwrite -c packages/shadcn-ui",
+    "clean": "git clean -fdx node_modules dist",
+    "prepare": "lefthook install"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.11",
+    "@turbo/gen": "2.9.18",
+    "@types/node": "25.9.3",
+    "lefthook": "^2.1.9",
+    "tsdown": "^0.22.3",
+    "turbo": "2.9.18",
+    "typescript": "6.0.3",
+    "ultracite": "latest"
+  },
+  "type": "module",
+  "packageManager": "pnpm@10.33.4",
+  "engines": {
+    "node": ">=22"
+  }
+}

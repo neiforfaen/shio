@@ -1,0 +1,13 @@
+{
+  "extends": "@repo/typescript-config/react-library.json",
+  "compilerOptions": {
+    "paths": {
+      "@repo/shadcn-ui/*": ["./*"],
+      "@repo/*": ["../*"]
+    },
+    "moduleResolution": "NodeNext",
+    "resolvePackageJsonImports": true
+  },
+  "include": ["**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"]
+}

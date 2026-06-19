@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    "npm",
+    "released"
+  ],
+  "owner": "neiforfaen",
+  "repo": "shio",
+  "name": "Kaiden R",
+  "email": "kaiden@0x424.kr"
+}

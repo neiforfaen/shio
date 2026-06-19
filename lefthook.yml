@@ -1,0 +1,11 @@
+#   Refer for explanation to following link:
+#   https://lefthook.dev/configuration/
+
+pre-commit:
+   parallel: true
+   jobs:
+    - run: pnpm fix
+      stage_fixed: true
+
+    - run: pnpm check-types
+      stage_fixed: true

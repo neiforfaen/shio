@@ -1,0 +1,19 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.4.11/schema.json",
+  "extends": [
+    "ultracite/biome/core",
+    "ultracite/biome/react",
+    "ultracite/biome/next"
+  ],
+  "files": {
+    "includes": [
+      "**/*",
+      "!packages/shadcn-ui/components/ui",
+      "!packages/shadcn-ui/lib",
+      "!packages/shadcn-ui/hooks"
+    ]
+  },
+  "javascript": {
+    "formatter": { "semicolons": "asNeeded" }
+  }
+}
