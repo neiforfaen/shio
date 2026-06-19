@@ -1,0 +1,32 @@
+import { Button } from "@repo/shadcn-ui/components/ui/button"
+import { Toaster } from "@repo/shadcn-ui/components/ui/sonner"
+import type { Meta, StoryObj } from "@storybook/react"
+import { toast } from "sonner"
+
+/**
+ * A toast notification component, built on top of the `sonner` library.
+ */
+const meta = {
+  title: "shadcn-ui/Sonner",
+  component: Toaster,
+  tags: ["autodocs"],
+} satisfies Meta<typeof Toaster>
+
+export default meta
+
+type Story = StoryObj<typeof meta>
+
+/**
+ * Render the `Toaster` once near the root of the app, then call `toast()`
+ * from anywhere to show a notification.
+ */
+export const Default: Story = {
+  render: () => (
+    <>
+      <Toaster />
+      <Button onClick={() => toast("Event has been created")} variant="outline">
+        Show toast
+      </Button>
+    </>
+  ),
+}
