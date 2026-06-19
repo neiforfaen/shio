@@ -1,8 +1,8 @@
 # Shio UI
 
-<div>
-  <img src="https://shieldcn.dev/github/license/neiforfaen/shio.svg?variant=branded" alt="license" />
-</div>
+[![license](https://shieldcn.dev/github/license/neiforfaen/shio.svg?variant=branded)](/LICENSE.md)
+&nbsp;
+![ci](https://www.shieldcn.dev/github/ci/neiforfaen/shio.svg?variant=branded)
 
 ## Overview
 
