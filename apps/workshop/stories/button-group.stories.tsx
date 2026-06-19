@@ -22,8 +22,8 @@ type Story = StoryObj<typeof meta>
  * The default button group, with buttons arranged horizontally.
  */
 export const Default: Story = {
-  render: () => (
-    <ButtonGroup>
+  render: (args) => (
+    <ButtonGroup {...args}>
       <Button variant="outline">Back</Button>
       <Button variant="outline">Next</Button>
       <Button variant="outline">Finish</Button>
@@ -35,13 +35,10 @@ export const Default: Story = {
  * Use the `vertical` orientation to stack the buttons instead.
  */
 export const Vertical: Story = {
-  render: () => (
-    <ButtonGroup orientation="vertical">
-      <Button variant="outline">Back</Button>
-      <Button variant="outline">Next</Button>
-      <Button variant="outline">Finish</Button>
-    </ButtonGroup>
-  ),
+  render: Default.render,
+  args: {
+    orientation: "vertical",
+  },
 }
 
 /**

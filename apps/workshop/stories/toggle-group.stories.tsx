@@ -22,8 +22,8 @@ type Story = StoryObj<typeof meta>
  * The default toggle group, where only one item can be pressed at a time.
  */
 export const Default: Story = {
-  render: () => (
-    <ToggleGroup defaultValue={["bold"]}>
+  render: (args) => (
+    <ToggleGroup defaultValue={["bold"]} {...args}>
       <ToggleGroupItem value="bold">
         <Bold />
       </ToggleGroupItem>
@@ -41,36 +41,19 @@ export const Default: Story = {
  * Use the `outline` variant to add a visible border to each item.
  */
 export const Outline: Story = {
-  render: () => (
-    <ToggleGroup defaultValue={["bold"]} variant="outline">
-      <ToggleGroupItem value="bold">
-        <Bold />
-      </ToggleGroupItem>
-      <ToggleGroupItem value="italic">
-        <Italic />
-      </ToggleGroupItem>
-      <ToggleGroupItem value="underline">
-        <Underline />
-      </ToggleGroupItem>
-    </ToggleGroup>
-  ),
+  render: Default.render,
+  args: {
+    variant: "outline",
+  },
 }
 
 /**
  * Set `multiple` to allow more than one item to be pressed at once.
  */
 export const Multiple: Story = {
-  render: () => (
-    <ToggleGroup defaultValue={["bold", "italic"]} multiple>
-      <ToggleGroupItem value="bold">
-        <Bold />
-      </ToggleGroupItem>
-      <ToggleGroupItem value="italic">
-        <Italic />
-      </ToggleGroupItem>
-      <ToggleGroupItem value="underline">
-        <Underline />
-      </ToggleGroupItem>
-    </ToggleGroup>
-  ),
+  render: Default.render,
+  args: {
+    defaultValue: ["bold", "italic"],
+    multiple: true,
+  },
 }
