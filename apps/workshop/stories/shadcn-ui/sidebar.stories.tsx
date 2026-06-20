@@ -12,7 +12,7 @@ import {
   SidebarProvider,
   SidebarTrigger,
 } from "@repo/shadcn-ui/components/ui/sidebar"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
 import { Center } from "@/.storybook/decorators/center"
 

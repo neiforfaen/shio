@@ -7,7 +7,7 @@ import {
   EmptyMedia,
   EmptyTitle,
 } from "@repo/shadcn-ui/components/ui/empty"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { InboxIcon } from "lucide-react"
 import { Center } from "@/.storybook/decorators/center"
 

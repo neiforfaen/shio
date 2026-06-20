@@ -1,5 +1,5 @@
 import { Toggle } from "@repo/shadcn-ui/components/ui/toggle"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Bold } from "lucide-react"
 import { Center } from "@/.storybook/decorators/center"
 

@@ -6,7 +6,7 @@ import {
   ChartTooltip,
   ChartTooltipContent,
 } from "@repo/shadcn-ui/components/ui/chart"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts"
 import { Center } from "@/.storybook/decorators/center"
 

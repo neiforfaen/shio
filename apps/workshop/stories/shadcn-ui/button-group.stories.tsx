@@ -3,7 +3,7 @@ import {
   ButtonGroup,
   ButtonGroupSeparator,
 } from "@repo/shadcn-ui/components/ui/button-group"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Center } from "@/.storybook/decorators/center"
 
 /**

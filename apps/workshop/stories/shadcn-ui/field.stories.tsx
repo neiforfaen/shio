@@ -10,7 +10,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/field"
 import { Input } from "@repo/shadcn-ui/components/ui/input"
 import { Switch } from "@repo/shadcn-ui/components/ui/switch"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Center } from "@/.storybook/decorators/center"
 
 /**

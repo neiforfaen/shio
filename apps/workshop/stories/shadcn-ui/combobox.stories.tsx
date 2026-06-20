@@ -11,7 +11,7 @@ import {
   ComboboxValue,
   useComboboxAnchor,
 } from "@repo/shadcn-ui/components/ui/combobox"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Center } from "@/.storybook/decorators/center"
 
 const frameworks = ["Next.js", "Remix", "Astro", "Vite", "Nuxt.js"]

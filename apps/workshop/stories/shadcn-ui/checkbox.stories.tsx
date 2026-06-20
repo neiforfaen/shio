@@ -1,6 +1,6 @@
 import { Checkbox } from "@repo/shadcn-ui/components/ui/checkbox"
 import { Label } from "@repo/shadcn-ui/components/ui/label"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Center } from "@/.storybook/decorators/center"
 
 /**

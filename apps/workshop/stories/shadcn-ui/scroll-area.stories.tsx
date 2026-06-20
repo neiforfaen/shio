@@ -1,6 +1,6 @@
 import { ScrollArea } from "@repo/shadcn-ui/components/ui/scroll-area"
 import { Separator } from "@repo/shadcn-ui/components/ui/separator"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Center } from "@/.storybook/decorators/center"
 
 const tags = Array.from({ length: 20 }, (_, i) => `Tag ${i + 1}`)

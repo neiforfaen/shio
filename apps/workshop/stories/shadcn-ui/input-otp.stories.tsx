@@ -4,7 +4,7 @@ import {
   InputOTPSeparator,
   InputOTPSlot,
 } from "@repo/shadcn-ui/components/ui/input-otp"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Center } from "@/.storybook/decorators/center"
 
 /**

@@ -5,7 +5,7 @@ import {
   AlertTitle,
 } from "@repo/shadcn-ui/components/ui/alert"
 import { Button } from "@repo/shadcn-ui/components/ui/button"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { AlertCircleIcon, CheckCircle2Icon } from "lucide-react"
 import { Center } from "@/.storybook/decorators/center"
 

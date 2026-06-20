@@ -8,7 +8,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@repo/shadcn-ui/components/ui/dialog"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Center } from "@/.storybook/decorators/center"
 
 /**

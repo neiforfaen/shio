@@ -1,6 +1,6 @@
 import { Button } from "@repo/shadcn-ui/components/ui/button"
 import { Toaster } from "@repo/shadcn-ui/components/ui/sonner"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { toast } from "sonner"
 import { Center } from "@/.storybook/decorators/center"
 

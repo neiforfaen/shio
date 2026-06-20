@@ -3,7 +3,7 @@ import {
   NativeSelectOptGroup,
   NativeSelectOption,
 } from "@repo/shadcn-ui/components/ui/native-select"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Center } from "@/.storybook/decorators/center"
 
 /**

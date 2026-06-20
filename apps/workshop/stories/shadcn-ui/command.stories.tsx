@@ -8,7 +8,7 @@ import {
   CommandSeparator,
   CommandShortcut,
 } from "@repo/shadcn-ui/components/ui/command"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { CalendarIcon, SettingsIcon, SmileIcon, UserIcon } from "lucide-react"
 import { Center } from "@/.storybook/decorators/center"
 

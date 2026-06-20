@@ -5,7 +5,7 @@ import {
   InputGroupInput,
   InputGroupTextarea,
 } from "@repo/shadcn-ui/components/ui/input-group"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { SearchIcon, SendIcon } from "lucide-react"
 import { Center } from "@/.storybook/decorators/center"
 

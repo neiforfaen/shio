@@ -2,7 +2,7 @@ import {
   ToggleGroup,
   ToggleGroupItem,
 } from "@repo/shadcn-ui/components/ui/toggle-group"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { Bold, Italic, Underline } from "lucide-react"
 import { Center } from "@/.storybook/decorators/center"
 

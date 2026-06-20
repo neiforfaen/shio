@@ -9,7 +9,7 @@ import {
   ItemSeparator,
   ItemTitle,
 } from "@repo/shadcn-ui/components/ui/item"
-import type { Meta, StoryObj } from "@storybook/react"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
 import { BellIcon } from "lucide-react"
 import { Center } from "@/.storybook/decorators/center"
 
