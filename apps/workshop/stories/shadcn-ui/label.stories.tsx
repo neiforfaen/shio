@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Renders an accessible label associated with a form control.
  */
 const meta = {
+  title: "Label",
   component: Label,
   decorators: [Center],
   argTypes: {

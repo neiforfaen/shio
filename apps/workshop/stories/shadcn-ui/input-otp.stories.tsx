@@ -12,6 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
  * slots.
  */
 const meta = {
+  title: "InputOTP",
   component: InputOTP,
   decorators: [Center],
   args: {

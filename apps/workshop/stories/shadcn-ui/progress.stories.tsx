@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays an indicator showing the completion progress of a task.
  */
 const meta = {
+  title: "Progress",
   component: Progress,
   decorators: [Center],
   args: {

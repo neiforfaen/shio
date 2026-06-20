@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * An input where the user selects a value from within a given range.
  */
 const meta = {
+  title: "Slider",
   component: Slider,
   decorators: [Center],
   args: {

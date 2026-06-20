@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a small badge for status, counts, or labels.
  */
 const meta = {
+  title: "Badge",
   component: Badge,
   decorators: [Center],
   argTypes: {

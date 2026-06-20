@@ -10,6 +10,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Accessible resizable panel groups and layouts with keyboard support.
  */
 const meta = {
+  title: "ResizablePanelGroup",
   component: ResizablePanelGroup,
   decorators: [Center],
 } satisfies Meta<typeof ResizablePanelGroup>

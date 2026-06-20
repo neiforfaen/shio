@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays content within a desired ratio.
  */
 const meta = {
+  title: "AspectRatio",
   component: AspectRatio,
   decorators: [Center],
 } satisfies Meta<typeof AspectRatio>

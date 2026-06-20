@@ -15,6 +15,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a card with a header, content, and footer.
  */
 const meta = {
+  title: "Card",
   component: Card,
   decorators: [Center],
 } satisfies Meta<typeof Card>

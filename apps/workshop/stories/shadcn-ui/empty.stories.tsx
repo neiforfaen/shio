@@ -15,6 +15,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a placeholder for when there is no content to show.
  */
 const meta = {
+  title: "Empty",
   component: Empty,
   decorators: [Center],
 } satisfies Meta<typeof Empty>

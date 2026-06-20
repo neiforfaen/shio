@@ -7,6 +7,7 @@ import { Center } from "@/.storybook/decorators/center"
  * combination of keys.
  */
 const meta = {
+  title: "Kbd",
   component: Kbd,
   decorators: [Center],
 } satisfies Meta<typeof Kbd>

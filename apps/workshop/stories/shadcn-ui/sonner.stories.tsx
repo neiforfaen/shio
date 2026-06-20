@@ -8,6 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A toast notification component, built on top of the `sonner` library.
  */
 const meta = {
+  title: "Toaster",
   component: Toaster,
   decorators: [Center],
 } satisfies Meta<typeof Toaster>

@@ -18,6 +18,7 @@ import { Center } from "@/.storybook/decorators/center"
  * layout.
  */
 const meta = {
+  title: "Field",
   component: Field,
   decorators: [Center],
 } satisfies Meta<typeof Field>

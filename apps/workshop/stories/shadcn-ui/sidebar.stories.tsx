@@ -28,6 +28,7 @@ const items = [
  * A composable, themeable sidebar component for application navigation.
  */
 const meta = {
+  title: "Sidebar",
   component: Sidebar,
   decorators: [Center],
 } satisfies Meta<typeof Sidebar>

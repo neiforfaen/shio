@@ -10,6 +10,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A set of two-state buttons that can be toggled on or off.
  */
 const meta = {
+  title: "ToggleGroup",
   component: ToggleGroup,
   decorators: [Center],
 } satisfies Meta<typeof ToggleGroup>

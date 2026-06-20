@@ -14,6 +14,7 @@ import { Center } from "@/.storybook/decorators/center"
  * content.
  */
 const meta = {
+  title: "NavigationMenu",
   component: NavigationMenu,
   decorators: [Center],
 } satisfies Meta<typeof NavigationMenu>

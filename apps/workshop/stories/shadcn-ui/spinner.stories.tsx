@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Used to indicate a loading state.
  */
 const meta = {
+  title: "Spinner",
   component: Spinner,
   decorators: [Center],
 } satisfies Meta<typeof Spinner>

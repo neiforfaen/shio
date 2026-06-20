@@ -21,6 +21,7 @@ const frameworks = ["Next.js", "Remix", "Astro", "Vite", "Nuxt.js"]
  * types.
  */
 const meta = {
+  title: "Combobox",
   component: Combobox,
   decorators: [Center],
 } satisfies Meta<typeof Combobox>

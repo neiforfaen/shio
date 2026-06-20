@@ -14,6 +14,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays the path to the current resource using a hierarchy of links.
  */
 const meta = {
+  title: "Breadcrumb",
   component: Breadcrumb,
   decorators: [Center],
 } satisfies Meta<typeof Breadcrumb>

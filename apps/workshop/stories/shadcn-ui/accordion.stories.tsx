@@ -12,6 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
  * section of content.
  */
 const meta = {
+  title: "Accordion",
   component: Accordion,
   decorators: [Center],
   args: {

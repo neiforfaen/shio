@@ -16,6 +16,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A fast, composable command menu for searching and running actions.
  */
 const meta = {
+  title: "Command",
   component: Command,
   decorators: [Center],
 } satisfies Meta<typeof Command>

@@ -18,6 +18,7 @@ import { Center } from "@/.storybook/decorators/center"
  * notification.
  */
 const meta = {
+  title: "Item",
   component: Item,
   decorators: [Center],
 } satisfies Meta<typeof Item>

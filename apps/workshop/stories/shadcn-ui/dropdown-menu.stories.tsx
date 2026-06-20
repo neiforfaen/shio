@@ -19,6 +19,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a menu of actions or options, triggered by a button.
  */
 const meta = {
+  title: "DropdownMenu",
   component: DropdownMenu,
   decorators: [Center],
 } satisfies Meta<typeof DropdownMenu>

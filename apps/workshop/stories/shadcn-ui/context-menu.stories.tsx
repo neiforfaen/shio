@@ -11,6 +11,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a menu triggered by a right-click, anchored to the pointer.
  */
 const meta = {
+  title: "ContextMenu",
   component: ContextMenu,
   decorators: [Center],
 } satisfies Meta<typeof ContextMenu>

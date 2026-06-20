@@ -14,6 +14,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a list of pages and lets the user navigate between them.
  */
 const meta = {
+  title: "Pagination",
   component: Pagination,
   decorators: [Center],
 } satisfies Meta<typeof Pagination>

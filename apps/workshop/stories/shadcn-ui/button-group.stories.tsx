@@ -10,6 +10,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Groups related buttons together, visually merging their borders.
  */
 const meta = {
+  title: "ButtonGroup",
   component: ButtonGroup,
   decorators: [Center],
 } satisfies Meta<typeof ButtonGroup>

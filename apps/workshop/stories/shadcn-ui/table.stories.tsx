@@ -42,6 +42,7 @@ const invoices = [
  * A responsive table component for displaying tabular data.
  */
 const meta = {
+  title: "Table",
   component: Table,
   decorators: [Center],
 } satisfies Meta<typeof Table>

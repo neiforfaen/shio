@@ -16,6 +16,7 @@ import { Center } from "@/.storybook/decorators/center"
  * inert.
  */
 const meta = {
+  title: "Dialog",
   component: Dialog,
   decorators: [Center],
 } satisfies Meta<typeof Dialog>

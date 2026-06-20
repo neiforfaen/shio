@@ -13,6 +13,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays rich content in a portal, triggered by a button.
  */
 const meta = {
+  title: "Popover",
   component: Popover,
   decorators: [Center],
 } satisfies Meta<typeof Popover>

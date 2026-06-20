@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a form input field or a component that looks like an input field.
  */
 const meta = {
+  title: "Input",
   component: Input,
   decorators: [Center],
   argTypes: {

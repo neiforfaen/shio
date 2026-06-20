@@ -13,6 +13,7 @@ import { Center } from "@/.storybook/decorators/center"
  * An image element with a fallback for representing the user.
  */
 const meta = {
+  title: "Avatar",
   component: Avatar,
   decorators: [Center],
 } satisfies Meta<typeof Avatar>

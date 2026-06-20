@@ -11,6 +11,7 @@ import { Center } from "@/.storybook/decorators/center"
  * controls.
  */
 const meta = {
+  title: "NativeSelect",
   component: NativeSelect,
   decorators: [Center],
 } satisfies Meta<typeof NativeSelect>

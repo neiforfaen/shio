@@ -7,6 +7,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A two-state button that can be either on or off.
  */
 const meta = {
+  title: "Toggle",
   component: Toggle,
   decorators: [Center],
   args: {

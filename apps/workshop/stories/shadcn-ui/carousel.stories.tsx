@@ -14,6 +14,7 @@ const slides = Array.from({ length: 5 }, (_, i) => i + 1)
  * A carousel with motion and swipe, built on Embla.
  */
 const meta = {
+  title: "Carousel",
   component: Carousel,
   decorators: [Center],
 } satisfies Meta<typeof Carousel>

@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Used to show a placeholder while content is loading.
  */
 const meta = {
+  title: "Skeleton",
   component: Skeleton,
   decorators: [Center],
 } satisfies Meta<typeof Skeleton>

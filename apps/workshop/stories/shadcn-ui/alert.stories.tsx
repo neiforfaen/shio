@@ -13,6 +13,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a callout for important, contextual messages.
  */
 const meta = {
+  title: "Alert",
   component: Alert,
   decorators: [Center],
 } satisfies Meta<typeof Alert>

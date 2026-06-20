@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Visually or semantically separates content.
  */
 const meta = {
+  title: "Separator",
   component: Separator,
   decorators: [Center],
   args: {

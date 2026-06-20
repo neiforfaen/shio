@@ -10,6 +10,7 @@ import { Center } from "@/.storybook/decorators/center"
  * An interactive component which expands and collapses a panel.
  */
 const meta = {
+  title: "Collapsible",
   component: Collapsible,
   decorators: [Center],
 } satisfies Meta<typeof Collapsible>

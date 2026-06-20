@@ -14,6 +14,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A panel that slides in from the edge of the screen.
  */
 const meta = {
+  title: "Sheet",
   component: Sheet,
   decorators: [Center],
 } satisfies Meta<typeof Sheet>

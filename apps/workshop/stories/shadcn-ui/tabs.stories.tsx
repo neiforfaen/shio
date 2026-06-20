@@ -12,6 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
  * at a time.
  */
 const meta = {
+  title: "Tabs",
   component: Tabs,
   decorators: [Center],
 } satisfies Meta<typeof Tabs>

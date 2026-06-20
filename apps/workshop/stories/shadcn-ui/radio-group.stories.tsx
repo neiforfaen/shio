@@ -11,6 +11,7 @@ import { Center } from "@/.storybook/decorators/center"
  * one of the buttons can be checked at a time.
  */
 const meta = {
+  title: "RadioGroup",
   component: RadioGroup,
   decorators: [Center],
 } satisfies Meta<typeof RadioGroup>

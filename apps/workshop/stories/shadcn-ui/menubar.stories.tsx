@@ -14,6 +14,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A horizontal menu bar, commonly used for application-level commands.
  */
 const meta = {
+  title: "Menubar",
   component: Menubar,
   decorators: [Center],
 } satisfies Meta<typeof Menubar>

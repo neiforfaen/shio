@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A date field component that allows users to enter and edit dates.
  */
 const meta = {
+  title: "Calendar",
   component: Calendar,
   decorators: [Center],
 } satisfies Meta<typeof Calendar>

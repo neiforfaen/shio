@@ -18,6 +18,7 @@ import { Center } from "@/.storybook/decorators/center"
  * expects a response.
  */
 const meta = {
+  title: "AlertDialog",
   component: AlertDialog,
   decorators: [Center],
 } satisfies Meta<typeof AlertDialog>

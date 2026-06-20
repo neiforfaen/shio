@@ -12,6 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
  * receives keyboard focus or the mouse hovers over it.
  */
 const meta = {
+  title: "Tooltip",
   component: Tooltip,
   decorators: [Center],
 } satisfies Meta<typeof Tooltip>

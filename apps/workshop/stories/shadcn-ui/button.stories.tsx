@@ -7,6 +7,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a button or a component that looks like a button.
  */
 const meta = {
+  title: "Button",
   component: Button,
   decorators: [Center],
   argTypes: {

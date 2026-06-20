@@ -15,6 +15,7 @@ import { Center } from "@/.storybook/decorators/center"
  * button.
  */
 const meta = {
+  title: "Select",
   component: Select,
   decorators: [Center],
 } satisfies Meta<typeof Select>

@@ -13,6 +13,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Groups an input with related addons, such as icons and buttons.
  */
 const meta = {
+  title: "InputGroup",
   component: InputGroup,
   decorators: [Center],
 } satisfies Meta<typeof InputGroup>

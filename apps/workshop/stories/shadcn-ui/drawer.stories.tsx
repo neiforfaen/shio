@@ -16,6 +16,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A drawer component, built on top of Vaul.
  */
 const meta = {
+  title: "Drawer",
   component: Drawer,
   decorators: [Center],
 } satisfies Meta<typeof Drawer>

@@ -9,6 +9,7 @@ const tags = Array.from({ length: 20 }, (_, i) => `Tag ${i + 1}`)
  * Augments native scroll functionality for custom, cross-browser styling.
  */
 const meta = {
+  title: "ScrollArea",
   component: ScrollArea,
   decorators: [Center],
 } satisfies Meta<typeof ScrollArea>

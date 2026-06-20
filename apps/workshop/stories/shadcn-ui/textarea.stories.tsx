@@ -6,6 +6,7 @@ import { Center } from "@/.storybook/decorators/center"
  * Displays a form textarea or a component that looks like a textarea.
  */
 const meta = {
+  title: "Textarea",
   component: Textarea,
   decorators: [Center],
   args: {

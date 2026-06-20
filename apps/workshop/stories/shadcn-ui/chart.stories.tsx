@@ -34,6 +34,7 @@ const chartConfig = {
  * A themeable wrapper around Recharts for building charts.
  */
 const meta = {
+  title: "ChartContainer",
   component: ChartContainer,
   decorators: [Center],
   args: {

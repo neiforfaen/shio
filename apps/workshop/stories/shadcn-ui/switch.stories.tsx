@@ -7,6 +7,7 @@ import { Center } from "@/.storybook/decorators/center"
  * A control that allows the user to toggle between checked and not checked.
  */
 const meta = {
+  title: "Switch",
   component: Switch,
   decorators: [Center],
   args: {
