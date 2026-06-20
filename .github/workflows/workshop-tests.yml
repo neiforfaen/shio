@@ -1,0 +1,25 @@
+name: UI
+
+on:
+  push:
+    branches: [main]
+    paths: &paths
+      - "apps/workshop/stories/**"
+      - "apps/workshop/.storybook/**"
+      - "apps/workshop/vitest.config.ts"
+      - "packages/shadcn-ui/**"
+      - ".github/workflows/workshop-tests.yml"
+  pull_request:
+    branches: ["**"]
+    paths: *paths
+
+jobs:
+  workshop-tests:
+    name: Workshop Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ./.github/actions/setup
+      - name: Install Playwright Chromium
+        run: pnpm --filter workshop exec playwright install --with-deps chromium
+      - run: pnpm --filter workshop test
