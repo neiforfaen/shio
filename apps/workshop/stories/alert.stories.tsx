@@ -15,7 +15,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Alert",
   component: Alert,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Alert>
 
 export default meta

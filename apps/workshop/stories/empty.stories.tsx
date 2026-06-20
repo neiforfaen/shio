@@ -17,7 +17,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Empty",
   component: Empty,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Empty>
 
 export default meta

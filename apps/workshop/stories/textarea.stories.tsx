@@ -8,7 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Textarea",
   component: Textarea,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     placeholder: "Type your message here.",
   },

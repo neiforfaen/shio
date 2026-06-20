@@ -9,7 +9,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Checkbox",
   component: Checkbox,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Checkbox>
 
 export default meta

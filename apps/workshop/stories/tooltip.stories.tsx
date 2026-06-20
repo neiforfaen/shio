@@ -14,7 +14,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Tooltip",
   component: Tooltip,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Tooltip>
 
 export default meta

@@ -23,7 +23,7 @@ const frameworks = ["Next.js", "Remix", "Astro", "Vite", "Nuxt.js"]
 const meta = {
   title: "shadcn-ui/Combobox",
   component: Combobox,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Combobox>
 
 export default meta

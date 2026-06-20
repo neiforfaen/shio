@@ -1,6 +1,6 @@
 import type { Decorator } from "@storybook/react"
 
-export const Center = (): Decorator => (Story) => (
+export const Center: Decorator = (Story) => (
   <div
     style={{
       display: "flex",

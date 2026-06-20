@@ -14,7 +14,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/InputOTP",
   component: InputOTP,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     maxLength: 6,
     children: null,

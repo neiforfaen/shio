@@ -8,7 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Input",
   component: Input,
-  decorators: [Center()],
+  decorators: [Center],
   argTypes: {
     placeholder: {
       control: "text",

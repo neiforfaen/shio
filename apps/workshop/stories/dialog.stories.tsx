@@ -18,7 +18,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Dialog",
   component: Dialog,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Dialog>
 
 export default meta

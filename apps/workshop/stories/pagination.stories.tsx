@@ -16,7 +16,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Pagination",
   component: Pagination,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Pagination>
 
 export default meta

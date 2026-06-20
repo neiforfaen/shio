@@ -8,7 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/AspectRatio",
   component: AspectRatio,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof AspectRatio>
 
 export default meta

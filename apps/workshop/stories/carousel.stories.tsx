@@ -16,7 +16,7 @@ const slides = Array.from({ length: 5 }, (_, i) => i + 1)
 const meta = {
   title: "shadcn-ui/Carousel",
   component: Carousel,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Carousel>
 
 export default meta

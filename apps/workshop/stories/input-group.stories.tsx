@@ -15,7 +15,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/InputGroup",
   component: InputGroup,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof InputGroup>
 
 export default meta

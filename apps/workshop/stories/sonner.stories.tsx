@@ -10,7 +10,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Sonner",
   component: Toaster,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Toaster>
 
 export default meta

@@ -9,7 +9,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Toggle",
   component: Toggle,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     variant: "default",
     size: "default",

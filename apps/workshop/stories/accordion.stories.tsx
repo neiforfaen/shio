@@ -14,7 +14,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Accordion",
   component: Accordion,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     defaultValue: ["item-1"],
   },

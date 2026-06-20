@@ -12,7 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Resizable",
   component: ResizablePanelGroup,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof ResizablePanelGroup>
 
 export default meta

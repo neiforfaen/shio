@@ -13,7 +13,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/ContextMenu",
   component: ContextMenu,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof ContextMenu>
 
 export default meta

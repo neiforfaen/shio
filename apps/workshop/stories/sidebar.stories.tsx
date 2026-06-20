@@ -30,7 +30,7 @@ const items = [
 const meta = {
   title: "shadcn-ui/Sidebar",
   component: Sidebar,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Sidebar>
 
 export default meta

@@ -44,7 +44,7 @@ const invoices = [
 const meta = {
   title: "shadcn-ui/Table",
   component: Table,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Table>
 
 export default meta

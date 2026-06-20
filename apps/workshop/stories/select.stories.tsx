@@ -17,7 +17,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Select",
   component: Select,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Select>
 
 export default meta

@@ -9,7 +9,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Button",
   component: Button,
-  decorators: [Center()],
+  decorators: [Center],
   argTypes: {
     children: {
       control: "text",

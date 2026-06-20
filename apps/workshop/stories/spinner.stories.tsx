@@ -8,7 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Spinner",
   component: Spinner,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Spinner>
 
 export default meta

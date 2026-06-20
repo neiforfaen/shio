@@ -21,7 +21,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/DropdownMenu",
   component: DropdownMenu,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof DropdownMenu>
 
 export default meta

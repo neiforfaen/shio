@@ -36,7 +36,7 @@ const chartConfig = {
 const meta = {
   title: "shadcn-ui/Chart",
   component: ChartContainer,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     config: chartConfig,
     children: <div />,

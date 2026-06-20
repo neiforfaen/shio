@@ -8,7 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Progress",
   component: Progress,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     value: 50,
     className: "w-64",

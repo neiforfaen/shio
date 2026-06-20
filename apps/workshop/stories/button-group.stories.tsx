@@ -12,7 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/ButtonGroup",
   component: ButtonGroup,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof ButtonGroup>
 
 export default meta

@@ -8,7 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Badge",
   component: Badge,
-  decorators: [Center()],
+  decorators: [Center],
   argTypes: {
     children: {
       control: "text",

@@ -20,7 +20,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Field",
   component: Field,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Field>
 
 export default meta

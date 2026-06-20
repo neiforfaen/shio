@@ -13,7 +13,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/RadioGroup",
   component: RadioGroup,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof RadioGroup>
 
 export default meta

@@ -8,7 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Slider",
   component: Slider,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     defaultValue: [50],
     max: 100,

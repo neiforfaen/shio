@@ -12,7 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Collapsible",
   component: Collapsible,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Collapsible>
 
 export default meta

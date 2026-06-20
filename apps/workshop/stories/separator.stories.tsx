@@ -8,7 +8,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Separator",
   component: Separator,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     orientation: "horizontal",
   },

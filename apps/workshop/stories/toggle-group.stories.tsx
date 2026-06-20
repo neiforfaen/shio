@@ -12,7 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/ToggleGroup",
   component: ToggleGroup,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof ToggleGroup>
 
 export default meta

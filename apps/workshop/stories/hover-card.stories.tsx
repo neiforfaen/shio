@@ -12,7 +12,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/HoverCard",
   component: HoverCard,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof HoverCard>
 
 export default meta

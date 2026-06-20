@@ -13,7 +13,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/NativeSelect",
   component: NativeSelect,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof NativeSelect>
 
 export default meta

@@ -16,7 +16,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Menubar",
   component: Menubar,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof Menubar>
 
 export default meta

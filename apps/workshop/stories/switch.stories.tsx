@@ -9,7 +9,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/Switch",
   component: Switch,
-  decorators: [Center()],
+  decorators: [Center],
   args: {
     size: "default",
   },

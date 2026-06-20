@@ -16,7 +16,7 @@ import { Center } from "@/.storybook/decorators/center"
 const meta = {
   title: "shadcn-ui/NavigationMenu",
   component: NavigationMenu,
-  decorators: [Center()],
+  decorators: [Center],
 } satisfies Meta<typeof NavigationMenu>
 
 export default meta
