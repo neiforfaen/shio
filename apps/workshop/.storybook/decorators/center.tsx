@@ -6,8 +6,8 @@ export const Center: Decorator = (Story) => (
       display: "flex",
       alignItems: "center",
       justifyContent: "center",
-      width: "100vw",
-      height: "100vh",
+      width: "100%",
+      height: "95vh",
     }}
   >
     <Story />
