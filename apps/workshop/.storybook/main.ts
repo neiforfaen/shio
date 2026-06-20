@@ -10,7 +10,18 @@ function getAbsolutePath(value: string) {
   return dirname(fileURLToPath(import.meta.resolve(`${value}/package.json`)))
 }
 const config: StorybookConfig = {
-  stories: ["../stories/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
+  stories: [
+    {
+      directory: "../stories/shadcn-ui",
+      titlePrefix: "Primitives",
+      files: "**/*.stories.tsx",
+    },
+    {
+      directory: "../stories/components",
+      titlePrefix: "Components",
+      files: "**/*.stories.tsx",
+    },
+  ],
   addons: [],
   framework: getAbsolutePath("@storybook/nextjs-vite"),
   staticDirs: ["../public"],
