@@ -22,7 +22,7 @@ const config: StorybookConfig = {
       files: "**/*.stories.tsx",
     },
   ],
-  addons: [],
+  addons: [getAbsolutePath("@storybook/addon-a11y")],
   framework: getAbsolutePath("@storybook/nextjs-vite"),
   staticDirs: ["../public"],
 }
