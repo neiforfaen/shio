@@ -20,3 +20,33 @@ jobs:
       - uses: actions/checkout@v6
       - uses: ./.github/actions/setup
       - run: pnpm check
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ./.github/actions/setup
+      - run: pnpm build
+      - run: npx tsdown
+
+  cli-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: ./.github/actions/setup
+      - name: Build CLI
+        run: npx tsdown
+      - name: Pack tarball
+        run: pnpm pack --pack-destination /tmp/shio-pack
+      - name: Run packed CLI
+        run: |
+          mkdir -p /tmp/shio-consumer && cd /tmp/shio-consumer
+          npm init -y >/dev/null
+          npm install /tmp/shio-pack/shio-ui-*.tgz
+          set +e
+          out="$(./node_modules/.bin/shio-ui 2>&1)"
+          code=$?
+          set -e
+          echo "$out"
+          test "$code" -eq 1 || { echo "::error::expected exit 1, got $code"; exit 1; }
+          echo "$out" | grep -q "Usage:" || { echo "::error::missing usage output"; exit 1; }
