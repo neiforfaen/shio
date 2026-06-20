@@ -1,5 +1,6 @@
 import { Progress } from "@repo/shadcn-ui/components/ui/progress"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays an indicator showing the completion progress of a task.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Progress",
   component: Progress,
+  decorators: [Center()],
   args: {
     value: 50,
     className: "w-64",

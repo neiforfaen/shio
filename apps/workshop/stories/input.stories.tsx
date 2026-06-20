@@ -1,5 +1,6 @@
 import { Input } from "@repo/shadcn-ui/components/ui/input"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a form input field or a component that looks like an input field.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Input",
   component: Input,
+  decorators: [Center()],
   argTypes: {
     placeholder: {
       control: "text",

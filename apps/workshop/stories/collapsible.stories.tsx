@@ -4,6 +4,7 @@ import {
   CollapsibleTrigger,
 } from "@repo/shadcn-ui/components/ui/collapsible"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * An interactive component which expands and collapses a panel.
@@ -11,6 +12,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Collapsible",
   component: Collapsible,
+  decorators: [Center()],
 } satisfies Meta<typeof Collapsible>
 
 export default meta

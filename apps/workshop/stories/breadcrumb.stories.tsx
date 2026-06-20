@@ -8,6 +8,7 @@ import {
   BreadcrumbSeparator,
 } from "@repo/shadcn-ui/components/ui/breadcrumb"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays the path to the current resource using a hierarchy of links.
@@ -15,6 +16,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Breadcrumb",
   component: Breadcrumb,
+  decorators: [Center()],
 } satisfies Meta<typeof Breadcrumb>
 
 export default meta

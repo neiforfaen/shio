@@ -1,5 +1,6 @@
 import { Kbd, KbdGroup } from "@repo/shadcn-ui/components/ui/kbd"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays textual user input from a keyboard, such as a single key or a
@@ -8,6 +9,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Kbd",
   component: Kbd,
+  decorators: [Center()],
 } satisfies Meta<typeof Kbd>
 
 export default meta

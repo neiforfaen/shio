@@ -7,6 +7,7 @@ import {
   AvatarImage,
 } from "@repo/shadcn-ui/components/ui/avatar"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * An image element with a fallback for representing the user.
@@ -14,6 +15,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Avatar",
   component: Avatar,
+  decorators: [Center()],
 } satisfies Meta<typeof Avatar>
 
 export default meta

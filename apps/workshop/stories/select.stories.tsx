@@ -8,6 +8,7 @@ import {
   SelectValue,
 } from "@repo/shadcn-ui/components/ui/select"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a list of options for the user to pick from, triggered by a
@@ -16,6 +17,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Select",
   component: Select,
+  decorators: [Center()],
 } satisfies Meta<typeof Select>
 
 export default meta

@@ -1,5 +1,6 @@
 import { Badge } from "@repo/shadcn-ui/components/ui/badge"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a small badge for status, counts, or labels.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Badge",
   component: Badge,
+  decorators: [Center()],
   argTypes: {
     children: {
       control: "text",

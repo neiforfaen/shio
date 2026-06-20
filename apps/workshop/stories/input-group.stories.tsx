@@ -7,6 +7,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/input-group"
 import type { Meta, StoryObj } from "@storybook/react"
 import { SearchIcon, SendIcon } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Groups an input with related addons, such as icons and buttons.
@@ -14,6 +15,7 @@ import { SearchIcon, SendIcon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/InputGroup",
   component: InputGroup,
+  decorators: [Center()],
 } satisfies Meta<typeof InputGroup>
 
 export default meta

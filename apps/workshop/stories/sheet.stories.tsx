@@ -8,6 +8,7 @@ import {
   SheetTrigger,
 } from "@repo/shadcn-ui/components/ui/sheet"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A panel that slides in from the edge of the screen.
@@ -15,6 +16,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Sheet",
   component: Sheet,
+  decorators: [Center()],
 } satisfies Meta<typeof Sheet>
 
 export default meta

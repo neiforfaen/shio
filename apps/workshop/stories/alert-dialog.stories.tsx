@@ -11,6 +11,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/alert-dialog"
 import { Button } from "@repo/shadcn-ui/components/ui/button"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A modal dialog that interrupts the user with important content and
@@ -19,6 +20,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/AlertDialog",
   component: AlertDialog,
+  decorators: [Center()],
 } satisfies Meta<typeof AlertDialog>
 
 export default meta

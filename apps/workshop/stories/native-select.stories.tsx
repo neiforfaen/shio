@@ -4,6 +4,7 @@ import {
   NativeSelectOption,
 } from "@repo/shadcn-ui/components/ui/native-select"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A native HTML select element, styled to match the rest of the form
@@ -12,6 +13,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/NativeSelect",
   component: NativeSelect,
+  decorators: [Center()],
 } satisfies Meta<typeof NativeSelect>
 
 export default meta

@@ -1,5 +1,6 @@
 import { Separator } from "@repo/shadcn-ui/components/ui/separator"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Visually or semantically separates content.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Separator",
   component: Separator,
+  decorators: [Center()],
   args: {
     orientation: "horizontal",
   },

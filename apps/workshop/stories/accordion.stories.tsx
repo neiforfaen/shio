@@ -5,6 +5,7 @@ import {
   AccordionTrigger,
 } from "@repo/shadcn-ui/components/ui/accordion"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A vertically stacked set of interactive headings that each reveal a
@@ -13,6 +14,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Accordion",
   component: Accordion,
+  decorators: [Center()],
   args: {
     defaultValue: ["item-1"],
   },

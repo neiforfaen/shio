@@ -4,6 +4,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/toggle-group"
 import type { Meta, StoryObj } from "@storybook/react"
 import { Bold, Italic, Underline } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A set of two-state buttons that can be toggled on or off.
@@ -11,6 +12,7 @@ import { Bold, Italic, Underline } from "lucide-react"
 const meta = {
   title: "shadcn-ui/ToggleGroup",
   component: ToggleGroup,
+  decorators: [Center()],
 } satisfies Meta<typeof ToggleGroup>
 
 export default meta

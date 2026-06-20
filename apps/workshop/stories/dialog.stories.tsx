@@ -9,6 +9,7 @@ import {
   DialogTrigger,
 } from "@repo/shadcn-ui/components/ui/dialog"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A window overlaid on the primary window, rendering the content behind it
@@ -17,6 +18,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Dialog",
   component: Dialog,
+  decorators: [Center()],
 } satisfies Meta<typeof Dialog>
 
 export default meta

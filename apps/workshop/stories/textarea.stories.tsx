@@ -1,5 +1,6 @@
 import { Textarea } from "@repo/shadcn-ui/components/ui/textarea"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a form textarea or a component that looks like a textarea.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Textarea",
   component: Textarea,
+  decorators: [Center()],
   args: {
     placeholder: "Type your message here.",
   },

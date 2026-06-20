@@ -6,6 +6,7 @@ import {
   CarouselPrevious,
 } from "@repo/shadcn-ui/components/ui/carousel"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 const slides = Array.from({ length: 5 }, (_, i) => i + 1)
 
@@ -15,6 +16,7 @@ const slides = Array.from({ length: 5 }, (_, i) => i + 1)
 const meta = {
   title: "shadcn-ui/Carousel",
   component: Carousel,
+  decorators: [Center()],
 } satisfies Meta<typeof Carousel>
 
 export default meta

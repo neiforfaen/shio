@@ -1,5 +1,6 @@
 import { AspectRatio } from "@repo/shadcn-ui/components/ui/aspect-ratio"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays content within a desired ratio.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/AspectRatio",
   component: AspectRatio,
+  decorators: [Center()],
 } satisfies Meta<typeof AspectRatio>
 
 export default meta

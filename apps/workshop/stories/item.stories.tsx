@@ -11,6 +11,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/item"
 import type { Meta, StoryObj } from "@storybook/react"
 import { BellIcon } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a single, flexible content row, such as a list entry or
@@ -19,6 +20,7 @@ import { BellIcon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Item",
   component: Item,
+  decorators: [Center()],
 } satisfies Meta<typeof Item>
 
 export default meta

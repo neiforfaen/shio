@@ -10,6 +10,7 @@ import {
   DrawerTrigger,
 } from "@repo/shadcn-ui/components/ui/drawer"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A drawer component, built on top of Vaul.
@@ -17,6 +18,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Drawer",
   component: Drawer,
+  decorators: [Center()],
 } satisfies Meta<typeof Drawer>
 
 export default meta

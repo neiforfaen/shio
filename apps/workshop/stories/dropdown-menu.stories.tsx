@@ -13,6 +13,7 @@ import {
   DropdownMenuTrigger,
 } from "@repo/shadcn-ui/components/ui/dropdown-menu"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a menu of actions or options, triggered by a button.
@@ -20,6 +21,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/DropdownMenu",
   component: DropdownMenu,
+  decorators: [Center()],
 } satisfies Meta<typeof DropdownMenu>
 
 export default meta

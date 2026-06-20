@@ -1,5 +1,6 @@
 import { Skeleton } from "@repo/shadcn-ui/components/ui/skeleton"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Used to show a placeholder while content is loading.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Skeleton",
   component: Skeleton,
+  decorators: [Center()],
 } satisfies Meta<typeof Skeleton>
 
 export default meta

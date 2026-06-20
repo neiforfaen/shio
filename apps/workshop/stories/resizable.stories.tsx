@@ -4,6 +4,7 @@ import {
   ResizablePanelGroup,
 } from "@repo/shadcn-ui/components/ui/resizable"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Accessible resizable panel groups and layouts with keyboard support.
@@ -11,6 +12,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Resizable",
   component: ResizablePanelGroup,
+  decorators: [Center()],
 } satisfies Meta<typeof ResizablePanelGroup>
 
 export default meta

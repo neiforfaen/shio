@@ -8,6 +8,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/chart"
 import type { Meta, StoryObj } from "@storybook/react"
 import { Bar, BarChart, CartesianGrid, XAxis } from "recharts"
+import { Center } from "@/.storybook/decorators/center"
 
 const chartData = [
   { month: "January", desktop: 186, mobile: 80 },
@@ -35,6 +36,7 @@ const chartConfig = {
 const meta = {
   title: "shadcn-ui/Chart",
   component: ChartContainer,
+  decorators: [Center()],
   args: {
     config: chartConfig,
     children: <div />,

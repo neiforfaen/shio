@@ -1,6 +1,7 @@
 import { Checkbox } from "@repo/shadcn-ui/components/ui/checkbox"
 import { Label } from "@repo/shadcn-ui/components/ui/label"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A control that allows the user to toggle between checked and not checked.
@@ -8,6 +9,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Checkbox",
   component: Checkbox,
+  decorators: [Center()],
 } satisfies Meta<typeof Checkbox>
 
 export default meta

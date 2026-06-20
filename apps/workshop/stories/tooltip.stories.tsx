@@ -5,6 +5,7 @@ import {
   TooltipTrigger,
 } from "@repo/shadcn-ui/components/ui/tooltip"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A popup that displays information related to an element when the element
@@ -13,6 +14,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Tooltip",
   component: Tooltip,
+  decorators: [Center()],
 } satisfies Meta<typeof Tooltip>
 
 export default meta

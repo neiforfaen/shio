@@ -7,6 +7,7 @@ import {
 import { Button } from "@repo/shadcn-ui/components/ui/button"
 import type { Meta, StoryObj } from "@storybook/react"
 import { AlertCircleIcon, CheckCircle2Icon } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a callout for important, contextual messages.
@@ -14,6 +15,7 @@ import { AlertCircleIcon, CheckCircle2Icon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Alert",
   component: Alert,
+  decorators: [Center()],
 } satisfies Meta<typeof Alert>
 
 export default meta

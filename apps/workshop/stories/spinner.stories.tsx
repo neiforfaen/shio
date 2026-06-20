@@ -1,5 +1,6 @@
 import { Spinner } from "@repo/shadcn-ui/components/ui/spinner"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Used to indicate a loading state.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Spinner",
   component: Spinner,
+  decorators: [Center()],
 } satisfies Meta<typeof Spinner>
 
 export default meta

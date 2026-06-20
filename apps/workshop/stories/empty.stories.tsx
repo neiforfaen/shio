@@ -9,6 +9,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/empty"
 import type { Meta, StoryObj } from "@storybook/react"
 import { InboxIcon } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a placeholder for when there is no content to show.
@@ -16,6 +17,7 @@ import { InboxIcon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Empty",
   component: Empty,
+  decorators: [Center()],
 } satisfies Meta<typeof Empty>
 
 export default meta

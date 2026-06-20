@@ -4,6 +4,7 @@ import {
   ButtonGroupSeparator,
 } from "@repo/shadcn-ui/components/ui/button-group"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Groups related buttons together, visually merging their borders.
@@ -11,6 +12,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/ButtonGroup",
   component: ButtonGroup,
+  decorators: [Center()],
 } satisfies Meta<typeof ButtonGroup>
 
 export default meta

@@ -1,6 +1,7 @@
 import { Label } from "@repo/shadcn-ui/components/ui/label"
 import { Switch } from "@repo/shadcn-ui/components/ui/switch"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A control that allows the user to toggle between checked and not checked.
@@ -8,6 +9,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Switch",
   component: Switch,
+  decorators: [Center()],
   args: {
     size: "default",
   },

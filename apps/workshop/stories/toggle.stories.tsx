@@ -1,6 +1,7 @@
 import { Toggle } from "@repo/shadcn-ui/components/ui/toggle"
 import type { Meta, StoryObj } from "@storybook/react"
 import { Bold } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A two-state button that can be either on or off.
@@ -8,6 +9,7 @@ import { Bold } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Toggle",
   component: Toggle,
+  decorators: [Center()],
   args: {
     variant: "default",
     size: "default",

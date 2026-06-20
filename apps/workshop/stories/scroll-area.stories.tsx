@@ -1,6 +1,7 @@
 import { ScrollArea } from "@repo/shadcn-ui/components/ui/scroll-area"
 import { Separator } from "@repo/shadcn-ui/components/ui/separator"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 const tags = Array.from({ length: 20 }, (_, i) => `Tag ${i + 1}`)
 
@@ -10,6 +11,7 @@ const tags = Array.from({ length: 20 }, (_, i) => `Tag ${i + 1}`)
 const meta = {
   title: "shadcn-ui/ScrollArea",
   component: ScrollArea,
+  decorators: [Center()],
 } satisfies Meta<typeof ScrollArea>
 
 export default meta

@@ -14,6 +14,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/sidebar"
 import type { Meta, StoryObj } from "@storybook/react"
 import { Calendar, Home, Inbox, Search, Settings } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 const items = [
   { title: "Home", icon: Home },
@@ -29,6 +30,7 @@ const items = [
 const meta = {
   title: "shadcn-ui/Sidebar",
   component: Sidebar,
+  decorators: [Center()],
 } satisfies Meta<typeof Sidebar>
 
 export default meta

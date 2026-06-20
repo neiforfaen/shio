@@ -1,5 +1,6 @@
 import { Slider } from "@repo/shadcn-ui/components/ui/slider"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * An input where the user selects a value from within a given range.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Slider",
   component: Slider,
+  decorators: [Center()],
   args: {
     defaultValue: [50],
     max: 100,

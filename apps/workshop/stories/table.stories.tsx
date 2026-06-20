@@ -9,6 +9,7 @@ import {
   TableRow,
 } from "@repo/shadcn-ui/components/ui/table"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 const invoices = [
   {
@@ -43,6 +44,7 @@ const invoices = [
 const meta = {
   title: "shadcn-ui/Table",
   component: Table,
+  decorators: [Center()],
 } satisfies Meta<typeof Table>
 
 export default meta

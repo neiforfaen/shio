@@ -4,6 +4,7 @@ import {
   RadioGroupItem,
 } from "@repo/shadcn-ui/components/ui/radio-group"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A set of checkable buttons, known as radio buttons, where no more than
@@ -12,6 +13,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/RadioGroup",
   component: RadioGroup,
+  decorators: [Center()],
 } satisfies Meta<typeof RadioGroup>
 
 export default meta

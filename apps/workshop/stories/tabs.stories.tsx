@@ -5,6 +5,7 @@ import {
   TabsTrigger,
 } from "@repo/shadcn-ui/components/ui/tabs"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A set of layered sections of content, known as tab panels, displayed one
@@ -13,6 +14,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Tabs",
   component: Tabs,
+  decorators: [Center()],
 } satisfies Meta<typeof Tabs>
 
 export default meta

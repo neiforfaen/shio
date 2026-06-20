@@ -5,6 +5,7 @@ import {
   InputOTPSlot,
 } from "@repo/shadcn-ui/components/ui/input-otp"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Accessible one-time password input, split into individual character
@@ -13,6 +14,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/InputOTP",
   component: InputOTP,
+  decorators: [Center()],
   args: {
     maxLength: 6,
     children: null,

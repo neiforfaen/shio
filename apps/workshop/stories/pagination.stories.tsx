@@ -8,6 +8,7 @@ import {
   PaginationPrevious,
 } from "@repo/shadcn-ui/components/ui/pagination"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a list of pages and lets the user navigate between them.
@@ -15,6 +16,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Pagination",
   component: Pagination,
+  decorators: [Center()],
 } satisfies Meta<typeof Pagination>
 
 export default meta

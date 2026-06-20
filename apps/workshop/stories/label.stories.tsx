@@ -1,5 +1,6 @@
 import { Label } from "@repo/shadcn-ui/components/ui/label"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Renders an accessible label associated with a form control.
@@ -7,6 +8,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Label",
   component: Label,
+  decorators: [Center()],
   argTypes: {
     children: {
       control: "text",

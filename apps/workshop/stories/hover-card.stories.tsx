@@ -4,6 +4,7 @@ import {
   HoverCardTrigger,
 } from "@repo/shadcn-ui/components/ui/hover-card"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * For sighted users to preview content available behind a link.
@@ -11,6 +12,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/HoverCard",
   component: HoverCard,
+  decorators: [Center()],
 } satisfies Meta<typeof HoverCard>
 
 export default meta

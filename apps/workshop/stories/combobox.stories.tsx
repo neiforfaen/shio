@@ -12,6 +12,7 @@ import {
   useComboboxAnchor,
 } from "@repo/shadcn-ui/components/ui/combobox"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 const frameworks = ["Next.js", "Remix", "Astro", "Vite", "Nuxt.js"]
 
@@ -22,6 +23,7 @@ const frameworks = ["Next.js", "Remix", "Astro", "Vite", "Nuxt.js"]
 const meta = {
   title: "shadcn-ui/Combobox",
   component: Combobox,
+  decorators: [Center()],
 } satisfies Meta<typeof Combobox>
 
 export default meta

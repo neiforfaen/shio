@@ -10,6 +10,7 @@ import {
 } from "@repo/shadcn-ui/components/ui/command"
 import type { Meta, StoryObj } from "@storybook/react"
 import { CalendarIcon, SettingsIcon, SmileIcon, UserIcon } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A fast, composable command menu for searching and running actions.
@@ -17,6 +18,7 @@ import { CalendarIcon, SettingsIcon, SmileIcon, UserIcon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Command",
   component: Command,
+  decorators: [Center()],
 } satisfies Meta<typeof Command>
 
 export default meta

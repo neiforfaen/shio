@@ -7,6 +7,7 @@ import {
   PopoverTrigger,
 } from "@repo/shadcn-ui/components/ui/popover"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays rich content in a portal, triggered by a button.
@@ -14,6 +15,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Popover",
   component: Popover,
+  decorators: [Center()],
 } satisfies Meta<typeof Popover>
 
 export default meta

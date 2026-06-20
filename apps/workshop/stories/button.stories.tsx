@@ -1,6 +1,7 @@
 import { Button } from "@repo/shadcn-ui/components/ui/button"
 import type { Meta, StoryObj } from "@storybook/react"
 import { Loader2, Mail } from "lucide-react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a button or a component that looks like a button.
@@ -8,6 +9,7 @@ import { Loader2, Mail } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Button",
   component: Button,
+  decorators: [Center()],
   argTypes: {
     children: {
       control: "text",

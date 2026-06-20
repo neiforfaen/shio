@@ -5,6 +5,7 @@ import {
   ContextMenuTrigger,
 } from "@repo/shadcn-ui/components/ui/context-menu"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a menu triggered by a right-click, anchored to the pointer.
@@ -12,6 +13,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/ContextMenu",
   component: ContextMenu,
+  decorators: [Center()],
 } satisfies Meta<typeof ContextMenu>
 
 export default meta

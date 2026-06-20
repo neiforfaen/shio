@@ -7,6 +7,7 @@ import {
   NavigationMenuTrigger,
 } from "@repo/shadcn-ui/components/ui/navigation-menu"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A collection of links for navigating a site, with optional dropdown
@@ -15,6 +16,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/NavigationMenu",
   component: NavigationMenu,
+  decorators: [Center()],
 } satisfies Meta<typeof NavigationMenu>
 
 export default meta

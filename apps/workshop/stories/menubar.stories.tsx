@@ -8,6 +8,7 @@ import {
   MenubarTrigger,
 } from "@repo/shadcn-ui/components/ui/menubar"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * A horizontal menu bar, commonly used for application-level commands.
@@ -15,6 +16,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Menubar",
   component: Menubar,
+  decorators: [Center()],
 } satisfies Meta<typeof Menubar>
 
 export default meta

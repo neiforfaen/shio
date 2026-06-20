@@ -11,6 +11,7 @@ import {
 import { Input } from "@repo/shadcn-ui/components/ui/input"
 import { Switch } from "@repo/shadcn-ui/components/ui/switch"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Combines labels, controls, and helper text into a consistent form field
@@ -19,6 +20,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Field",
   component: Field,
+  decorators: [Center()],
 } satisfies Meta<typeof Field>
 
 export default meta

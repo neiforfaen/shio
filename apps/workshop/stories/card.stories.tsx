@@ -9,6 +9,7 @@ import {
   CardTitle,
 } from "@repo/shadcn-ui/components/ui/card"
 import type { Meta, StoryObj } from "@storybook/react"
+import { Center } from "@/.storybook/decorators/center"
 
 /**
  * Displays a card with a header, content, and footer.
@@ -16,6 +17,7 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Card",
   component: Card,
+  decorators: [Center()],
 } satisfies Meta<typeof Card>
 
 export default meta
