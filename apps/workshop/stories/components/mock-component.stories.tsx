@@ -13,9 +13,6 @@ const meta = {
       control: "text",
     },
   },
-  parameters: {
-    layout: "centered",
-  },
   args: {
     variant: "default",
     size: "default",
