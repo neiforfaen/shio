@@ -10,7 +10,11 @@
       "**/*",
       "!packages/shadcn-ui/components/ui",
       "!packages/shadcn-ui/lib",
-      "!packages/shadcn-ui/hooks"
+      "!packages/shadcn-ui/hooks",
+      // temp: until dir structure fixed
+      "!apps/docs",
+      // temp: testing other frameworks
+      "!apps/mock-docs"
     ]
   },
   "javascript": {
