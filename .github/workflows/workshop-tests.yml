@@ -1,4 +1,4 @@
-name: UI
+name: CI
 
 on:
   push:
@@ -15,7 +15,7 @@ on:
 
 jobs:
   workshop-tests:
-    name: Workshop Tests
+    name: ui tests (workshop)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
