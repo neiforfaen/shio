@@ -13,7 +13,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Tabs",
   component: Tabs,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Tabs>
 
 export default meta

@@ -16,7 +16,6 @@ import { InboxIcon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Empty",
   component: Empty,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Empty>
 
 export default meta

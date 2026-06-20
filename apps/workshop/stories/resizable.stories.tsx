@@ -11,18 +11,14 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Resizable",
   component: ResizablePanelGroup,
-  tags: ["autodocs"],
 } satisfies Meta<typeof ResizablePanelGroup>
 
 export default meta
 
 type Story = StoryObj<typeof meta>
 
-/**
- * The default resizable layout, split into two panels.
- */
-export const Default: Story = {
-  render: () => (
+function ExampleResizable({ withHandle }: { withHandle?: boolean }) {
+  return (
     <ResizablePanelGroup
       className="max-w-md rounded-lg border"
       orientation="horizontal"
@@ -30,12 +26,19 @@ export const Default: Story = {
       <ResizablePanel>
         <div className="flex h-32 items-center justify-center">One</div>
       </ResizablePanel>
-      <ResizableHandle />
+      <ResizableHandle withHandle={withHandle} />
       <ResizablePanel>
         <div className="flex h-32 items-center justify-center">Two</div>
       </ResizablePanel>
     </ResizablePanelGroup>
-  ),
+  )
+}
+
+/**
+ * The default resizable layout, split into two panels.
+ */
+export const Default: Story = {
+  render: () => <ExampleResizable />,
 }
 
 /**
@@ -43,18 +46,5 @@ export const Default: Story = {
  * on the divider.
  */
 export const WithHandle: Story = {
-  render: () => (
-    <ResizablePanelGroup
-      className="max-w-md rounded-lg border"
-      orientation="horizontal"
-    >
-      <ResizablePanel>
-        <div className="flex h-32 items-center justify-center">One</div>
-      </ResizablePanel>
-      <ResizableHandle withHandle />
-      <ResizablePanel>
-        <div className="flex h-32 items-center justify-center">Two</div>
-      </ResizablePanel>
-    </ResizablePanelGroup>
-  ),
+  render: () => <ExampleResizable withHandle />,
 }

@@ -13,7 +13,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/InputOTP",
   component: InputOTP,
-  tags: ["autodocs"],
   args: {
     maxLength: 6,
     children: null,
@@ -28,8 +27,8 @@ type Story = StoryObj<typeof meta>
  * A 6-digit OTP input, split into two groups of 3 with a separator.
  */
 export const Default: Story = {
-  render: () => (
-    <InputOTP maxLength={6}>
+  render: (args) => (
+    <InputOTP maxLength={args.maxLength}>
       <InputOTPGroup>
         <InputOTPSlot index={0} />
         <InputOTPSlot index={1} />

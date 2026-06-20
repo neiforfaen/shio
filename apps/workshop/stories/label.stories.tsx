@@ -7,7 +7,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Label",
   component: Label,
-  tags: ["autodocs"],
   argTypes: {
     children: {
       control: "text",

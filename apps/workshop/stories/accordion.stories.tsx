@@ -13,7 +13,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Accordion",
   component: Accordion,
-  tags: ["autodocs"],
   args: {
     defaultValue: ["item-1"],
   },

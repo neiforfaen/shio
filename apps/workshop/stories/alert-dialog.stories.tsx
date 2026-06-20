@@ -19,7 +19,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/AlertDialog",
   component: AlertDialog,
-  tags: ["autodocs"],
 } satisfies Meta<typeof AlertDialog>
 
 export default meta

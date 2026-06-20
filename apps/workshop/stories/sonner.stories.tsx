@@ -9,7 +9,6 @@ import { toast } from "sonner"
 const meta = {
   title: "shadcn-ui/Sonner",
   component: Toaster,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Toaster>
 
 export default meta

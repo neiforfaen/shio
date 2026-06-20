@@ -11,7 +11,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/HoverCard",
   component: HoverCard,
-  tags: ["autodocs"],
 } satisfies Meta<typeof HoverCard>
 
 export default meta

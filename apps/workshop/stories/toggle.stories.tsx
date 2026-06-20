@@ -8,7 +8,6 @@ import { Bold } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Toggle",
   component: Toggle,
-  tags: ["autodocs"],
   args: {
     variant: "default",
     size: "default",

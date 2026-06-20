@@ -11,7 +11,6 @@ import { Bold, Italic, Underline } from "lucide-react"
 const meta = {
   title: "shadcn-ui/ToggleGroup",
   component: ToggleGroup,
-  tags: ["autodocs"],
 } satisfies Meta<typeof ToggleGroup>
 
 export default meta

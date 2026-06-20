@@ -11,7 +11,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/ButtonGroup",
   component: ButtonGroup,
-  tags: ["autodocs"],
 } satisfies Meta<typeof ButtonGroup>
 
 export default meta

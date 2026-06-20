@@ -7,7 +7,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Slider",
   component: Slider,
-  tags: ["autodocs"],
   args: {
     defaultValue: [50],
     max: 100,

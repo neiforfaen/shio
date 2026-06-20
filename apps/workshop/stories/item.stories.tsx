@@ -19,7 +19,6 @@ import { BellIcon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Item",
   component: Item,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Item>
 
 export default meta

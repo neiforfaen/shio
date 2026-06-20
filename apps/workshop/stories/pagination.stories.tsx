@@ -15,7 +15,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Pagination",
   component: Pagination,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Pagination>
 
 export default meta

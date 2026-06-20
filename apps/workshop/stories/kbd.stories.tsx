@@ -8,7 +8,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Kbd",
   component: Kbd,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Kbd>
 
 export default meta

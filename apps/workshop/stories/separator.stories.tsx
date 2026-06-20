@@ -7,7 +7,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Separator",
   component: Separator,
-  tags: ["autodocs"],
   args: {
     orientation: "horizontal",
   },

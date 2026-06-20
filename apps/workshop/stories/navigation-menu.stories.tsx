@@ -15,7 +15,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/NavigationMenu",
   component: NavigationMenu,
-  tags: ["autodocs"],
 } satisfies Meta<typeof NavigationMenu>
 
 export default meta

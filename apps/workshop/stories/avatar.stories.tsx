@@ -14,7 +14,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Avatar",
   component: Avatar,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Avatar>
 
 export default meta

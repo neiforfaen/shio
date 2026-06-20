@@ -7,7 +7,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/AspectRatio",
   component: AspectRatio,
-  tags: ["autodocs"],
 } satisfies Meta<typeof AspectRatio>
 
 export default meta

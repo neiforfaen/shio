@@ -11,7 +11,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Collapsible",
   component: Collapsible,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Collapsible>
 
 export default meta

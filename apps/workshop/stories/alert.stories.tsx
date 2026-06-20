@@ -14,7 +14,6 @@ import { AlertCircleIcon, CheckCircle2Icon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Alert",
   component: Alert,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Alert>
 
 export default meta

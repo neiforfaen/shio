@@ -14,7 +14,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Popover",
   component: Popover,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Popover>
 
 export default meta

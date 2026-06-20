@@ -35,7 +35,6 @@ const chartConfig = {
 const meta = {
   title: "shadcn-ui/Chart",
   component: ChartContainer,
-  tags: ["autodocs"],
   args: {
     config: chartConfig,
     children: <div />,
@@ -50,8 +49,8 @@ type Story = StoryObj<typeof meta>
  * A bar chart with two series, a tooltip, and a legend.
  */
 export const Default: Story = {
-  render: () => (
-    <ChartContainer className="min-h-[200px] w-full" config={chartConfig}>
+  render: ({ children, ...args }) => (
+    <ChartContainer {...args} className="min-h-[200px] w-full">
       <BarChart data={chartData}>
         <CartesianGrid vertical={false} />
         <XAxis

@@ -14,7 +14,6 @@ import { SearchIcon, SendIcon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/InputGroup",
   component: InputGroup,
-  tags: ["autodocs"],
 } satisfies Meta<typeof InputGroup>
 
 export default meta

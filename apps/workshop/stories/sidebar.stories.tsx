@@ -29,7 +29,6 @@ const items = [
 const meta = {
   title: "shadcn-ui/Sidebar",
   component: Sidebar,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Sidebar>
 
 export default meta

@@ -7,7 +7,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Input",
   component: Input,
-  tags: ["autodocs"],
   argTypes: {
     placeholder: {
       control: "text",

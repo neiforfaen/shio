@@ -8,7 +8,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Switch",
   component: Switch,
-  tags: ["autodocs"],
   args: {
     size: "default",
   },

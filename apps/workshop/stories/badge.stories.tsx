@@ -7,7 +7,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Badge",
   component: Badge,
-  tags: ["autodocs"],
   argTypes: {
     children: {
       control: "text",

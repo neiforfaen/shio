@@ -20,7 +20,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/DropdownMenu",
   component: DropdownMenu,
-  tags: ["autodocs"],
 } satisfies Meta<typeof DropdownMenu>
 
 export default meta

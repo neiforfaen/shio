@@ -8,7 +8,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Checkbox",
   component: Checkbox,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Checkbox>
 
 export default meta

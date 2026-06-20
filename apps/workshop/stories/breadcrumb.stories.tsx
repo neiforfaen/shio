@@ -15,7 +15,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Breadcrumb",
   component: Breadcrumb,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Breadcrumb>
 
 export default meta

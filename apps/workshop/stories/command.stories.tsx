@@ -17,7 +17,6 @@ import { CalendarIcon, SettingsIcon, SmileIcon, UserIcon } from "lucide-react"
 const meta = {
   title: "shadcn-ui/Command",
   component: Command,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Command>
 
 export default meta

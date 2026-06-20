@@ -43,7 +43,6 @@ const invoices = [
 const meta = {
   title: "shadcn-ui/Table",
   component: Table,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Table>
 
 export default meta

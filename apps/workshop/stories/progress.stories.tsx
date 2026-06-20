@@ -7,7 +7,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Progress",
   component: Progress,
-  tags: ["autodocs"],
   args: {
     value: 50,
     className: "w-64",

@@ -10,7 +10,6 @@ const tags = Array.from({ length: 20 }, (_, i) => `Tag ${i + 1}`)
 const meta = {
   title: "shadcn-ui/ScrollArea",
   component: ScrollArea,
-  tags: ["autodocs"],
 } satisfies Meta<typeof ScrollArea>
 
 export default meta

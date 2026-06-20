@@ -7,7 +7,6 @@ import type { Meta, StoryObj } from "@storybook/react"
 const meta = {
   title: "shadcn-ui/Calendar",
   component: Calendar,
-  tags: ["autodocs"],
 } satisfies Meta<typeof Calendar>
 
 export default meta
