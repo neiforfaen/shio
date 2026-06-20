@@ -16,6 +16,7 @@
     "gen:component": "turbo gen component",
     "bump-ui": "npx shadcn@latest add --all --overwrite -c packages/shadcn-ui",
     "clean": "git clean -fdx node_modules dist",
+    "clean:all": "turbo run clean && pnpm clean && pnpm install",
     "prepare": "lefthook install"
   },
   "devDependencies": {

@@ -1,0 +1,54 @@
+import {
+  Menubar,
+  MenubarContent,
+  MenubarItem,
+  MenubarMenu,
+  MenubarSeparator,
+  MenubarShortcut,
+  MenubarTrigger,
+} from "@repo/shadcn-ui/components/ui/menubar"
+import type { Meta, StoryObj } from "@storybook/nextjs-vite"
+import { Center } from "@/.storybook/decorators/center"
+
+/**
+ * A horizontal menu bar, commonly used for application-level commands.
+ */
+const meta = {
+  title: "Menubar",
+  component: Menubar,
+  decorators: [Center],
+} satisfies Meta<typeof Menubar>
+
+export default meta
+
+type Story = StoryObj<typeof meta>
+
+/**
+ * The default menubar, with a "File" and an "Edit" menu.
+ */
+export const Default: Story = {
+  render: () => (
+    <Menubar>
+      <MenubarMenu>
+        <MenubarTrigger>File</MenubarTrigger>
+        <MenubarContent>
+          <MenubarItem>
+            New Tab <MenubarShortcut>⌘T</MenubarShortcut>
+          </MenubarItem>
+          <MenubarItem>
+            New Window <MenubarShortcut>⌘N</MenubarShortcut>
+          </MenubarItem>
+          <MenubarSeparator />
+          <MenubarItem>Share</MenubarItem>
+        </MenubarContent>
+      </MenubarMenu>
+      <MenubarMenu>
+        <MenubarTrigger>Edit</MenubarTrigger>
+        <MenubarContent>
+          <MenubarItem>Undo</MenubarItem>
+          <MenubarItem>Redo</MenubarItem>
+        </MenubarContent>
+      </MenubarMenu>
+    </Menubar>
+  ),
+}
