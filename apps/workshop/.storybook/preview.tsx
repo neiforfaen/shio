@@ -11,6 +11,8 @@ const preview: Preview = {
       },
     },
 
+    tags: ["autodocs"],
+
     controls: {
       matchers: {
         color: /(background|color)$/i,
