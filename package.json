@@ -22,7 +22,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.5.0",
     "@turbo/gen": "2.10.0",
-    "@types/node": "25.9.3",
+    "@types/node": "26.0.1",
     "lefthook": "^2.1.9",
     "tsdown": "^0.22.3",
     "turbo": "2.10.0",
