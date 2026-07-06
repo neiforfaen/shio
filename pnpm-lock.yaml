@@ -12,8 +12,8 @@ importers:
         specifier: 2.5.2
         version: 2.5.2
       '@turbo/gen':
-        specifier: 2.10.2
-        version: 2.10.2(@types/node@26.1.0)
+        specifier: 2.10.3
+        version: 2.10.3(@types/node@26.1.0)
       '@types/node':
         specifier: 26.1.0
         version: 26.1.0
@@ -2010,8 +2010,8 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
-  '@turbo/gen@2.10.2':
-    resolution: {integrity: sha512-euo5g9gAjMaWt0sl8Xg2ThahSIuGvK/hqciXt8sthH+HrifzjKa9TQaIVtdTpFzsTKfOqBlUvd5O+aPrEnvxqQ==}
+  '@turbo/gen@2.10.3':
+    resolution: {integrity: sha512-1NRcmDyctuf4D7PWcd3nZuIWL2+StYIkx7Gk5CrprbS4lXyB5uENdp3XQUd39/IOEXybC99nCXunB5SrJ6Pp2g==}
     hasBin: true
 
   '@turbo/linux-64@2.10.3':
@@ -3020,6 +3020,10 @@ packages:
 
   iconv-lite@0.7.2:
     resolution: {integrity: sha512-im9DjEDQ55s9fL4EYzOAv0yMqmMBSZp6G0VvFyTMPKWxiSBHUj9NW/qqLmXUwXrrM7AvqSlTCfvqRb0cM8yYqw==}
+    engines: {node: '>=0.10.0'}
+
+  iconv-lite@0.7.3:
+    resolution: {integrity: sha512-IKXpvIzjnC9XTAUbVBcMfGS0EPaIXtW6v+zr+RRp+hqULEpo0owZax6wyRwPOJbWbzjYspQwusTsfVr0ifh4uQ==}
     engines: {node: '>=0.10.0'}
 
   ignore@5.3.2:
@@ -5209,7 +5213,7 @@ snapshots:
   '@inquirer/external-editor@1.0.3(@types/node@26.1.0)':
     dependencies:
       chardet: 2.2.0
-      iconv-lite: 0.7.2
+      iconv-lite: 0.7.3
     optionalDependencies:
       '@types/node': 26.1.0
 
@@ -6058,7 +6062,7 @@ snapshots:
   '@turbo/darwin-arm64@2.10.3':
     optional: true
 
-  '@turbo/gen@2.10.2(@types/node@26.1.0)':
+  '@turbo/gen@2.10.3(@types/node@26.1.0)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@26.1.0)
       esbuild: 0.28.1
@@ -7103,6 +7107,10 @@ snapshots:
   human-signals@8.0.1: {}
 
   iconv-lite@0.7.2:
+    dependencies:
+      safer-buffer: 2.1.2
+
+  iconv-lite@0.7.3:
     dependencies:
       safer-buffer: 2.1.2
 
