@@ -12,8 +12,8 @@ importers:
         specifier: 2.5.2
         version: 2.5.2
       '@turbo/gen':
-        specifier: 2.10.3
-        version: 2.10.3(@types/node@26.1.0)
+        specifier: 2.10.4
+        version: 2.10.4(@types/node@26.1.0)
       '@types/node':
         specifier: 26.1.0
         version: 26.1.0
@@ -31,7 +31,7 @@ importers:
         version: 6.0.3
       ultracite:
         specifier: latest
-        version: 7.9.2(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)
+        version: 7.9.3(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)
 
   apps/workshop:
     dependencies:
@@ -2010,8 +2010,8 @@ packages:
     cpu: [arm64]
     os: [darwin]
 
-  '@turbo/gen@2.10.3':
-    resolution: {integrity: sha512-1NRcmDyctuf4D7PWcd3nZuIWL2+StYIkx7Gk5CrprbS4lXyB5uENdp3XQUd39/IOEXybC99nCXunB5SrJ6Pp2g==}
+  '@turbo/gen@2.10.4':
+    resolution: {integrity: sha512-FP3XAL344PohE7yN8cR+SDLyhWIMk7kn+jCNlovzhXDQJBHjfn9Iv7GgMf1dnSTO7etYeOfe4v41Ix26bzYm+A==}
     hasBin: true
 
   '@turbo/linux-64@2.10.3':
@@ -4278,8 +4278,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  ultracite@7.9.2:
-    resolution: {integrity: sha512-NIMZCputZguuj09RcfTD6S9hsYbl8NNF5jplMs7au0R2xsLEnTIkyt+evg7Bd/reBzO+zBl/GbmmykUPbPJEEw==}
+  ultracite@7.9.3:
+    resolution: {integrity: sha512-MqF0cn5DNHy/I61+hL4aYPRVye+rrmUqfv1dhwQ0ORfoFngk1O8tTKigF+zpsh/6qA84gkl26KkrtYzoypPiaw==}
     hasBin: true
     peerDependencies:
       oxfmt: '>=0.1.0'
@@ -6058,7 +6058,7 @@ snapshots:
   '@turbo/darwin-arm64@2.10.3':
     optional: true
 
-  '@turbo/gen@2.10.3(@types/node@26.1.0)':
+  '@turbo/gen@2.10.4(@types/node@26.1.0)':
     dependencies:
       '@inquirer/prompts': 7.10.1(@types/node@26.1.0)
       esbuild: 0.28.1
@@ -8323,7 +8323,7 @@ snapshots:
 
   typescript@6.0.3: {}
 
-  ultracite@7.9.2(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3):
+  ultracite@7.9.3(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3):
     dependencies:
       '@clack/prompts': 1.5.1
       '@typescript-eslint/utils': 8.62.1(eslint@10.6.0(jiti@2.7.0))(typescript@6.0.3)
