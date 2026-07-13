@@ -20,7 +20,7 @@
     "prepare": "lefthook install"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.2",
+    "@biomejs/biome": "2.5.3",
     "@turbo/gen": "2.10.4",
     "@types/node": "26.1.0",
     "lefthook": "^2.1.9",
