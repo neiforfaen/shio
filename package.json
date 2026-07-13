@@ -23,7 +23,7 @@
     "@biomejs/biome": "2.5.3",
     "@turbo/gen": "2.10.4",
     "@types/node": "26.1.0",
-    "lefthook": "^2.1.9",
+    "lefthook": "^2.1.10",
     "tsdown": "^0.22.3",
     "turbo": "2.10.4",
     "typescript": "6.0.3",
