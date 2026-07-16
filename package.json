@@ -24,7 +24,7 @@
     "@turbo/gen": "2.10.4",
     "@types/node": "26.1.1",
     "lefthook": "^2.1.10",
-    "tsdown": "^0.22.5",
+    "tsdown": "^0.22.7",
     "turbo": "2.10.4",
     "typescript": "6.0.3",
     "ultracite": "latest"
