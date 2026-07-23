@@ -61,8 +61,8 @@ importers:
         specifier: workspace:*
         version: link:../../packages/typescript-config
       '@storybook/addon-a11y':
-        specifier: 10.5.2
-        version: 10.5.2(storybook@10.5.2(@types/react@19.2.17)(react@19.2.7))
+        specifier: 10.5.3
+        version: 10.5.3(storybook@10.5.2(@types/react@19.2.17)(react@19.2.7))
       '@storybook/addon-docs':
         specifier: 10.5.2
         version: 10.5.2(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(esbuild@0.28.1)(storybook@10.5.2(@types/react@19.2.17)(react@19.2.7))(vite@8.1.5(@types/node@26.1.1)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
@@ -617,6 +617,12 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@eslint-community/eslint-utils@4.10.1':
+    resolution: {integrity: sha512-cuadcxVFE8sDK6iWJbs8Sn0av2Nrh2QSGQhVlBW9AaAHqHwjWsZHT8LJ4hFGPh7ASBV2deFdM7H/DPjulmh8rg==}
+    engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    peerDependencies:
+      eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
 
   '@eslint-community/eslint-utils@4.9.1':
     resolution: {integrity: sha512-phrYmNiYppR7znFEdqgfWHXR6NCkZEK7hwWDHZUjit/2/U0r6XvkDl0SYnoM51Hq7FhCGdLDT6zxCCOY1hexsQ==}
@@ -1735,10 +1741,10 @@ packages:
   '@standard-schema/utils@0.3.0':
     resolution: {integrity: sha512-e7Mew686owMaPJVNNLs55PUvgz371nKgwsc4vxE49zsODpJEnxgxRo2y/OKrqueavXgZNMDVj3DdHFlaSAeU8g==}
 
-  '@storybook/addon-a11y@10.5.2':
-    resolution: {integrity: sha512-BMze+oj1Jz3QcGl0E6mjuVA32zPD/cTu3Ev4O4qNbKbqLXO4wA1G6aEd8+CGcQtTGEyMCsr0BH6I/WnXcwA1bQ==}
+  '@storybook/addon-a11y@10.5.3':
+    resolution: {integrity: sha512-UJqvVfkTYFT+7MVTVzyMYxZoc2NNJQF+XE5fA8ABuMtQdBWYEgL2O3fjK0TR0F1JcXJZonj4trzyVNCVPjJi5Q==}
     peerDependencies:
-      storybook: ^10.5.2
+      storybook: ^10.5.3
 
   '@storybook/addon-docs@10.5.2':
     resolution: {integrity: sha512-MoBANDsh5qEA14U+JaBoQcYsKbayJDDMopigFN0NdVAsZTdBfVIsL7cnjTFBL6ubB3ifb5M0tCXbScpml1KqiQ==}
@@ -2988,8 +2994,8 @@ packages:
     resolution: {integrity: sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==}
     engines: {node: '>=16'}
 
-  flatted@3.4.2:
-    resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
+  flatted@3.4.3:
+    resolution: {integrity: sha512-/zipXxyO6rGvuNGDiULY9MvEGSkb2gaG4GGH4ygMi0ZZzyMHdUZBmntJmx5x1G2VuPytCwGN4xsJP6cw+sK+vQ==}
 
   forwarded@0.2.0:
     resolution: {integrity: sha512-buRG0fpBtRHSTCOASe6hD258tEubFoRLb4ZNA6NxMVHNw2gOcwHo9wyablzMzOA5z9xA9L1KNjk/Nt6MT9aYow==}
@@ -5069,6 +5075,11 @@ snapshots:
   '@esbuild/win32-x64@0.28.1':
     optional: true
 
+  '@eslint-community/eslint-utils@4.10.1(eslint@10.6.0(jiti@2.7.0))':
+    dependencies:
+      eslint: 10.6.0(jiti@2.7.0)
+      eslint-visitor-keys: 3.4.3
+
   '@eslint-community/eslint-utils@4.9.1(eslint@10.6.0(jiti@2.7.0))':
     dependencies:
       eslint: 10.6.0(jiti@2.7.0)
@@ -5879,7 +5890,7 @@ snapshots:
 
   '@standard-schema/utils@0.3.0': {}
 
-  '@storybook/addon-a11y@10.5.2(storybook@10.5.2(@types/react@19.2.17)(react@19.2.7))':
+  '@storybook/addon-a11y@10.5.3(storybook@10.5.2(@types/react@19.2.17)(react@19.2.7))':
     dependencies:
       '@storybook/global': 5.0.0
       axe-core: 4.12.1
@@ -6912,7 +6923,7 @@ snapshots:
 
   eslint@10.6.0(jiti@2.7.0):
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.6.0(jiti@2.7.0))
+      '@eslint-community/eslint-utils': 4.10.1(eslint@10.6.0(jiti@2.7.0))
       '@eslint-community/regexpp': 4.12.2
       '@eslint/config-array': 0.23.5
       '@eslint/config-helpers': 0.6.0
@@ -7121,10 +7132,10 @@ snapshots:
 
   flat-cache@4.0.1:
     dependencies:
-      flatted: 3.4.2
+      flatted: 3.4.3
       keyv: 4.5.4
 
-  flatted@3.4.2: {}
+  flatted@3.4.3: {}
 
   forwarded@0.2.0: {}
 
